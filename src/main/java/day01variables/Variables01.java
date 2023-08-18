@@ -1,6 +1,6 @@
 
 
-package day29exceptions.day01variables;
+package day01variables;
 
 import java.util.Scanner;
 

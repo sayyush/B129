@@ -2,13 +2,12 @@ package day27encapsulationabstraction;
 
 public abstract class Courses {
 
-
     /*
 
      1) Bazen method body'sini yazmak gerekmez, bu durumlarda body'siz method olusturmak gerekir.
        Body'si olmayan method'lara" abstract method (soyut meleklerin bodysi yok soyut varlik)"lar denir.
 
-     2) "Abstract method" lar child class'lar tarafindan "override" edilmek zorundadirlar.
+     2) "Abstract method" lar child class'lar tarafindan "override" edilmek zorundadirlar. kullanmak zorunda
         Bu yuzden, eger bir fonksiyonun child class'lar tarafindan kullanilmasini mecbur etmek isterseniz
         o method'u abstract yapmak gerekir.
 
@@ -38,7 +37,7 @@ public abstract class Courses {
     // Bu yuzden, Java "Abstract Class " laerin "final" olmasina musaade etmez.
     // "abstract method "lar "private" olamazlar, cunku child class'lar abstract method'lari kullanirlar,
     // private yapinca kullanima kapali olur.
-    // Bu celiskidir, bu yuzdne Java abstract method'larin "private" olmasina musaade etmez.
+    // Bu celiskidir, bu yuzden Java abstract method'larin "private" olmasina musaade etmez.
 
     // "abstract" method'lar "static" olamazlar cunku static method'lar override edilemez,
     // halbuki abstract method'lar override edilmek icin olusturulmustur.

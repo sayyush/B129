@@ -23,7 +23,7 @@ public class Student {
     }
 
 
-    // OBJELERI EKRANDA GOREBILMEK ICIN TOSTRING methoduna ihtiyacimiz var: sag click,generate,toString,sec,OK bas
+    // OBJELERI EKRANDA GOREBILMEK ICIN TO STRING methoduna ihtiyacimiz var: sag click,generate,toString,sec,OK bas
     @Override
     public String toString() {
         return "Student{" +

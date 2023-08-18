@@ -40,9 +40,7 @@ public class Student {
   set method'lar kalibi degistirmez , objeyi degistirir
  */
 
-    public void setGpa(double gpa) {
-        this.gpa = gpa;
-    }
+    public void setGpa(double gpa) {this.gpa = gpa;}
 
     public void setStdId(String stdId) {this.stdId = stdId;}
 

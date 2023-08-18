@@ -13,7 +13,7 @@ public class Animal {
     1) Code standardinda tekrar iyi degildir.
     2) Code degisime acik olmalidir. Hatayi duzeltmek kolay olmali.
     3) Gelisime update'e acik olmali.
-    4) Code atomic yapida olmali.
+    4) Code atomic yapida olmali. Class larin ici buyuk olmamali, kucuk olursa hizli calisir. Sinek ve dag ornek olabilir.
     Note 1: parent class (super class) (ortak ozellikleri icerir) - "child class" (sub class) (Class'a ozel ozellikleri icerir)
     Note 2: Bir parent class'a bagli child class'i belirtmek icin "extends" keyword kullaniriz
     Note 3:" public" method'lar" child class'lar tarafindan kullanilabilir".
@@ -28,8 +28,8 @@ public class Animal {
             Apartman gibi olan.
     Note 9: Java'da Object Class tum Java Class'arinin ortak parent'idir.
     Note 10: Java'da Object Class haric tum class'larin parent'i vardir.
-    Note 11: Java'da parent'dan child'a olan olan iliskilere "HAS - A RELATIONSHIP" denir.
-             Java'da child'dan parent'a olan olan iliskilere "IS - A RELATIONSHIP" denir.
+    Note 11: Java'da parent'dan child'a olan  iliskilere "HAS - A RELATIONSHIP" denir.
+             Java'da child'dan parent'a olan iliskilere "IS - A RELATIONSHIP" denir.
     Note 12: Java'da her class'in bir tane default constructor'i vardir.
              Bu default constructor class'in icinde gorunmez cunku default constructor "Object Class" icindedir.
              Bizim class'miz default constructor'a ihtiyac duydugunda parent olan "Object Class" a gider ve oradaki constructor'i kullanir.
@@ -39,12 +39,6 @@ public class Animal {
     */
 
     public void eat() {System.out.println("Animals eat...");}
-
     void drink() {System.out.println("Animals drink...");}
-
-
-
-
-
 
 }

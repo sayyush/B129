@@ -42,7 +42,7 @@ public class Student {
             public> protected > default > private
 
 
-
+        BIR CLASS PUBLIC VE DEFAULT OLABILIR.
 
 
 
